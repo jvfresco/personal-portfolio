@@ -60,8 +60,8 @@
       "id": 4,
       "title": "portfolio",
       "text": "To be able to display my projects, I created this simple portfolio. I learned about the existence of React spring Library, a library used specifically to create animations in React, and I decided to profit this new project to learn how to implement it.<ul><li>React</li><li>Functional components and hooks</li><li>Animations with React Spring</li></ul>",
-      "urlLive": "aaa",
-      "urlGithub": "aaa",
+      "urlLive": "https://fispe.github.io/personal-portfolio/",
+      "urlGithub": "https://github.com/Fispe/personal-portfolio",
       "imageUrl": "img/portfolio.jpg",
       "colors": {
         "primary": "#dfdfdf",
