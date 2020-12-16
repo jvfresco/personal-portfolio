@@ -1,0 +1,22 @@
+.circuit__lines, .circuit__background {
+  position: absolute;
+  transform: translate(-50%,-50%);
+  top: 50%;
+  left:50%;
+  z-index: -1;
+}
+
+.circuit__background {
+  opacity: .3;
+  z-index: -2;
+}
+
+.path {
+  stroke-dasharray: 1000;
+}
+
+@media only screen and (max-width: 1365px), only screen and (max-height: 600px){ 
+  .circuit__lines, .circuit__background {
+    display: none;
+  }
+}

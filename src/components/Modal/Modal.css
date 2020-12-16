@@ -1,0 +1,47 @@
+.modal {
+  position: fixed;
+  display: inline-block;
+  min-width: 40%;
+  max-height: 70%;
+  z-index: 500;
+  overflow-y: auto;
+  overflow-x: hidden;
+  left:50%;
+  top:50%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+}
+
+.modal__title {
+  padding: 8px 10px 0px 10px;
+  text-align: right;
+  background-color: white;
+  clip-path: polygon(55% 0%, 100% 0%, 100% 100%, 50% 100%);
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.modal__text {
+  margin-top:-5px;
+  padding: 10px 20px;
+  background-color: rgba(155,155,155,.9);
+  text-align: left;
+  color: #222222;
+  font-weight: 600;
+}
+
+ul {
+  list-style: none;
+}
+h3 {
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 800px){
+  .modal {
+    overflow-x: auto;
+    width: 100%;
+  }
+}
