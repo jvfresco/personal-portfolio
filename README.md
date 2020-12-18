@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Access a live version [here](https://fispe.github.io/personal-portfolio/)
+Access a live version [here](https://jvfresco.github.io/personal-portfolio/)
 
 ## Personal portfolio
 
