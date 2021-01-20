@@ -19,7 +19,7 @@ function reducer (state, action){
     case 'LOAD_PROJECT':
       return {...state, index: action.index, showModal: true, animate: true}
     case 'OPEN_MODAL':
-      return {...state, index: 5, showModal: true}
+      return {...state, index: 6, showModal: true}
     case 'UNLOAD_PROJECT':
       return {...state, showModal: false, animate: false}
     case 'CLOSE_MODAL': 
@@ -38,6 +38,7 @@ const App = () => {
   useEffect(()=> {
     async function getProjects(){
       const projectsResponse = await fetch('data/data.json')
+      console.log(projectsResponse)
       const projects = await projectsResponse.json()
       setProjects(projects.projects)
     } 
@@ -90,7 +91,7 @@ const App = () => {
           <span dangerouslySetInnerHTML={{__html: index !== null && projects[index].text}} />
           <div className='modal__footer' style={{display:'flex', justifyContent:'center'}}>
                 <IconLink href={index !== null && projects[index].urlGithub} image={githubLogo} alt="Visit on Github" color={index !== null && projects[index].colors.filter}/>
-                <IconLink href={index !== null && projects[index].urlLive} image={index===5 ? mailLogo : liveLogo} alt="Visit live version" color={index !== null && projects[index].colors.filter}/>
+                <IconLink href={index !== null && projects[index].urlLive} image={index===6 ? mailLogo : liveLogo} alt="Visit live version" color={index !== null && projects[index].colors.filter}/>
           </div> 
         </Modal>
         {projects ? (

@@ -9,15 +9,15 @@ const OctogonContent = ({showModal, onClick, projects}) => {
   const windowFocus = useWindowFocus() //Hook to know if the window is onfocus
   const [timer, setTimer] = useState(null)  //Interval that controls the animation
   const transitions = useTransition(projects[index], item => item.id, {
-    from: { opacity: 0, height: 0},
-    enter: { opacity: 1, height: 60},
-    leave: { opacity: 0, height: 0},
+    from: { opacity: 0},
+    enter: { opacity: 1},
+    leave: { opacity: 0},
     config: {mass: 1, tension: 280, friction: 120, duration: 500},
   })
 
   //Function that starts the interval for the transition animation
   function intervalMovementStart(){
-    void setTimer(setInterval(() => set(state => (state + 1) % 5), 2000))
+    void setTimer(setInterval(() => set(state => (state + 1) % 6), 2000))
   }
   
   //Interval is started when mounting (modal is closed)

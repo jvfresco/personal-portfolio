@@ -29,6 +29,7 @@
   margin-top: 10px;
   margin-left: 7px; /*Half of letter-spacing*/
   word-spacing: 100vw;
+  z-index:2;
 }
 
 @media only screen and (max-width: 600px), only screen and (max-height: 600px){ 
