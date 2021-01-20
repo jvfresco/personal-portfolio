@@ -72,6 +72,20 @@
     },
     {
       "id": 5,
+      "title": "Message Board",
+      "text": "This is the first fullstack project I've worked on. It is based on an online course I did. The application consists in a Nodejs backend and a React frontend. It is a message board that allows the user to post, edit and delete messages, as well as receive live updates thanks to the use of websockets.<ul><li>Nodejs with Expressjs</li><li>MongoDB with mongoose</li><li>Websocket with Socket.io</li><li>React</li><li>Deployed with Heroku</li></ul>",
+      "urlLive": "https://jvfresco.github.io/messageboard_frontend/",
+      "urlGithub": "https://github.com/jvfresco/messageboard_backend",
+      "imageUrl": "img/messageboard.jpg",
+      "colors": {
+        "primary": "#efefef",
+        "secondary": "#33a2ff",
+        "tertiary": "#137dd7",
+        "filter": "invert(72%) sepia(26%) saturate(1085%) hue-rotate(352deg) brightness(104%) contrast(96%)"
+      }
+    },
+    {
+      "id": 6,
       "title": "about me",
       "text": "<h3>My name is Javier, and I want to be a professional developer.</h3>As a kid I always liked computers and I've always been linked somehow to their world.<br /><br />With an academic background as plc programmer and sysadmin, my life drove me to become a production and quality manager in a small factory. Unfortunately, the recent covid crisis has suspended the activity of the company, and I've decided to divert from my path and go back to my beginnings. <br/><br />For the past months, I've been refreshing myself acquiring new knowlege and I've been working on these small projects presented here between others, consequence of what I recently learned.<br/><br />My goal is to find a job as a software developer specialized in React.<br/><br />If you are interested please don't hesitate to contact me.",
       "urlLive": "mailto:javifge@gmail.com",
