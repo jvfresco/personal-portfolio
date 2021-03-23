@@ -2,8 +2,22 @@
   "projects": [
     {
       "id": 0,
+      "title": "Expenses follower",
+      "text": "<h3>Web application to manage personal expenses</h3>This is still a work in progress. The application consists in a Nodejs backend and a React frontend. It is an app that allows the user to record, edit and delete personal expenses or incomes, as well as categorize them and comfortably visualize all the data.<ul><li>Nodejs with Expressjs</li><li>MongoDB with mongoose</li><li>React</li><li>React query: cache management and optimistic updates</li><li>React Intl: language internationalization and currency formatting</li><li>Emotion: css in js</li><li>Nivo: chart data visualization</li><li>Jest + RTL: unit and integration tests</li><li>Cypress: e2e tests</li></ul>",
+
+      "urlGithub": "https://github.com/jvfresco/expenses_follower",
+      "imageUrl": "img/expenses_follower.jpg",
+      "colors": {
+        "primary": "#2b7bfd",
+        "secondary": "#d88d03",
+        "tertiary": "#5898ff",
+        "filter": "invert(64%) sepia(27%) saturate(6310%) hue-rotate(10deg) brightness(96%) contrast(98%)"
+      }
+    },
+    {
+      "id": 1,
       "title": "Movie finder",
-      "text": "<h3>Web application to obtain movies information, ratings and recommendations</h3>This application looks for a movie and returns its data, ratings from 4 websites calculating the average, and recommendations based on the selection.<br />The idea of this project was to use hooks and after a review from my part custom hooks were added to separate logic from components.<br />This project was also used to learn and implement animations using the library Green Sock AP.<br />Simple routing is used to be able to use forward and backward page navigation.<br />The project connects to TMDB API as well as connects to IMDB API to obtain the data.<ul><li>React</li><li>Functional components, hooks and custom hooks</li><li>Routing</li><li>Animations with GSAP</li><li>Style managed with css modules</li><li>TMDB and IMDB API</li></ul>",
+      "text": "<h3>Web application to obtain movies information, ratings and recommendations</h3>This application looks for a movie and returns its data, ratings from 4 websites calculating the average, and recommendations based on the selection.<br />The idea of this project was to use hooks. After a review from my part, custom hooks were added to separate logic from components.<br />This project was also used to learn and implement animations using the library Green Sock AP.<br />Simple routing is used to be able to use forward and backward page navigation.<br />The project connects to TMDB API as well as connects to IMDB API to obtain the data.<ul><li>React</li><li>Functional components, hooks and custom hooks</li><li>Routing</li><li>Animations with GSAP</li><li>Style managed with css modules</li><li>TMDB and IMDB API</li></ul>",
       "urlLive": "https://jvfresco.github.io/react-movie-finder/",
       "urlGithub": "https://github.com/jvfresco/react-movie-finder",
       "imageUrl": "img/movie_finder_full.jpg",
@@ -15,7 +29,7 @@
       }
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "Music box",
       "text": "<h3>This application uses the Soundcloud API to retrieve songs and allows the user to play them.</h3>My goal with this project was to create a web application using React + Redux to control a global state and manage streamable media content reproduction.<br />The application implements a custom web player, that can be operated from each individual song or with the global web controls.<br />I revisited the project to create this second version without Redux, managing state by props drilling, proper component hierarchy and using new custom hooks. <ul><li>React</li><li>Functional components, hooks and custom hooks</li><li>Infinite scroll</li><li>Dark / Light themes</li><li>Animations with GSAP</li><li>Style managed with scss</li><li>Soundcloud API</li></ul>",
       "urlLive": "https://jvfresco.github.io/music-box-v2/",
@@ -29,7 +43,7 @@
       }
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Rubik cube",
       "text": "<h3>Web application that renders a playable version of a Rubik Cube in a 3D environment.</h3>With this project I wanted to go one step further and I learned how to use three.js. It is implemented using the React Three Fiber library.<ul><li>React</li><li>React Three Fiber</li><li>Functional components, hooks and custom hooks</li></ul>",
       "urlLive": "https://jvfresco.github.io/react-rubik-cube/",
@@ -43,7 +57,7 @@
       }
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Weather app",
       "text": "<h3>Web application to retrieve the actual weather and the forecast of an specified city.</h3>This is the first project done by myself based on React. To gain familiarity with older versions of React, it was done using classes, avoiding newest functionalities like hooks. It uses OpenWeather API to obtain the data.<ul><li>React</li><li>Class based</li><li>Style managed with css modules</li><li>OpenWeather API</li></ul>",
       "urlLive": "https://jvfresco.github.io/react-weather-app/",
@@ -57,16 +71,11 @@
       }
     },
     {
-      "id": 4,
+      "id": 5,
       "title": "portfolio",
       "text": "To be able to display my projects, I created this simple portfolio. I learned about the existence of React spring Library, a library used specifically to create animations in React, and I decided to profit this new project to learn how to implement it.<ul><li>React</li><li>Functional components and hooks</li><li>Animations with React Spring</li></ul>",
-<<<<<<< HEAD
       "urlLive": "https://jvfresco.github.io/personal-portfolio/",
       "urlGithub": "https://github.com/jvfresco/personal-portfolio",
-=======
-      "urlLive": "https://fispe.github.io/personal-portfolio/",
-      "urlGithub": "https://github.com/Fispe/personal-portfolio",
->>>>>>> 7be320a601e7d085b2a73cb53151f2ef6142a5dc
       "imageUrl": "img/portfolio.jpg",
       "colors": {
         "primary": "#dfdfdf",
@@ -76,7 +85,7 @@
       }
     },
     {
-      "id": 5,
+      "id": 6,
       "title": "Message Board",
       "text": "This is the first fullstack project I've worked on. It is based on an online course I did. The application consists in a Nodejs backend and a React frontend. It is a message board that allows the user to post, edit and delete messages, as well as receive live updates thanks to the use of websockets.<ul><li>Nodejs with Expressjs</li><li>MongoDB with mongoose</li><li>Websocket with Socket.io</li><li>React</li><li>Deployed with Heroku</li></ul>",
       "urlLive": "https://jvfresco.github.io/messageboard_frontend/",
@@ -90,9 +99,9 @@
       }
     },
     {
-      "id": 6,
+      "id": 7,
       "title": "about me",
-      "text": "<h3>My name is Javier, and I want to be a professional developer.</h3>As a kid I always liked computers and I've always been linked somehow to their world.<br /><br />With an academic background as plc programmer and sysadmin, my life drove me to become a production and quality manager in a small factory. Unfortunately, the recent covid crisis has suspended the activity of the company, and I've decided to divert from my path and go back to my beginnings. <br/><br />For the past months, I've been refreshing myself acquiring new knowlege and I've been working on these small projects presented here between others, consequence of what I recently learned.<br/><br />My goal is to find a job as a software developer specialized in React.<br/><br />If you are interested please don't hesitate to contact me.",
+      "text": "<h3>My name is Javier, and I want to become a professional developer.</h3>As a kid I always liked computers and I've always been linked somehow to their world.<br /><br />With an academic background as plc programmer and sysadmin, my path drove me to become a production and quality manager in a small factory. Unfortunately, the recent covid crisis has suspended the activity of the company, and I've decided to change my career. <br/><br />For the past months, I've been refreshing myself acquiring new knowlege and I've been working on these small projects presented here between others, consequence of what I recently learned.<br/><br />My goal is to find a job as a software developer specialized in React.<br/><br />If you are interested please don't hesitate to contact me.",
       "urlLive": "mailto:javifge@gmail.com",
       "urlGithub": "https://github.com/jvfresco",
       "colors": {
