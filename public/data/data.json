@@ -3,7 +3,7 @@
     {
       "id": 0,
       "title": "Expenses follower",
-      "text": "<h3>Web application to manage personal expenses</h3>This is still a work in progress. The application consists in a Nodejs backend and a React frontend. It is an app that allows the user to record, edit and delete personal expenses or incomes, as well as categorize them and comfortably visualize all the data.<ul><li>Nodejs with Expressjs</li><li>MongoDB with mongoose</li><li>React</li><li>React query: cache management and optimistic updates</li><li>React Intl: language internationalization and currency formatting</li><li>Emotion: css in js</li><li>Nivo: chart data visualization</li><li>Jest + RTL: unit and integration tests</li><li>Cypress: e2e tests</li></ul>",
+      "text": "<h3>Web application to manage personal expenses</h3>This is still a work in progress. The application consists in a NodeJS backend and a React frontend. It is an app that allows the user to record, edit and delete personal expenses or incomes, as well as categorize them and comfortably visualize all the data.<ul><li>Nodejs with Expressjs</li><li>MongoDB with mongoose</li><li>React</li><li>React query: cache management and optimistic updates</li><li>React Intl: language internationalization and currency formatting</li><li>Emotion: css in js</li><li>Nivo: chart data visualization</li><li>Jest + RTL: unit and integration tests</li><li>Cypress: e2e tests</li></ul>",
 
       "urlGithub": "https://github.com/jvfresco/expenses_follower",
       "imageUrl": "img/expenses_follower.jpg",
